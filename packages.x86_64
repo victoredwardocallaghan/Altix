@@ -38,6 +38,8 @@ openvpn
 parted
 pptpclient
 thunar
+thunar-volman
+thunar-archive-plugin
 rp-pppoe
 rsync
 smartmontools
