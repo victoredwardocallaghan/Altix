@@ -69,6 +69,7 @@ network-manager-applet
 xf86-input-evdev
 xf86-input-synaptics
 xf86-video-nouveau
+xf86-video-intel
 xf86-video-ati
 ttf-dejavu
 ttf-bitstream-vera
