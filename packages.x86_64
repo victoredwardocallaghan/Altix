@@ -1,4 +1,7 @@
+p7zip
 aif
+acpi
+acpid
 feh
 b43-fwcutter
 btrfs-progs
@@ -67,6 +70,8 @@ xf86-input-evdev
 xf86-input-synaptics
 xf86-video-nouveau
 xf86-video-ati
+ttf-dejavu
+ttf-bitstream-vera
 xorg
 xorg-server
 xorg-server-utils
