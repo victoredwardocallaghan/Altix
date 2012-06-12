@@ -12,6 +12,7 @@ dnsutils
 dosfstools
 efibootmgr
 rxvt-unicode
+xfburn
 gnu-netcat
 gptfdisk
 hdparm
