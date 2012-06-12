@@ -3,7 +3,7 @@ b43-fwcutter
 btrfs-progs
 crda
 darkhttpd
-ddrescue
+devtools
 dhclient
 dialog
 dmraid
@@ -22,9 +22,8 @@ irssi
 clang
 conky
 llvm
-lftp
-linux-atm
-mtools
+linux
+laptop-mode-tools
 netcfg
 nfs-utils
 nilfs-utils
