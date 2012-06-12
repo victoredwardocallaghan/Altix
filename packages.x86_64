@@ -11,7 +11,7 @@ dnsmasq
 dnsutils
 dosfstools
 efibootmgr
-elinks
+rxvt-unicode
 gnu-netcat
 gptfdisk
 hdparm
