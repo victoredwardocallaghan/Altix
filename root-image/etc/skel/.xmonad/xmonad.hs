@@ -35,7 +35,7 @@ main = do
         conky  <- spawnPipe myDzenConky     -- conky stats on the right
         xmonad $ withUrgencyHook NoUrgencyHook $ defaultConfig 
             { modMask            = mod4Mask
-            , terminal           = "urxvtcd"
+            , terminal           = "urxvtc"
             , borderWidth        = 2
             , normalBorderColor  = "#dddddd"
             , focusedBorderColor = "#0000ff"
@@ -74,7 +74,7 @@ myManageHook = composeAll
     , className =? "Gimp"           --> doFloat
     , className =? "XCalc"          --> doFloat
     , className =? "Chromium"       --> doF (W.shift (myWorkspaces !! 1)) -- send to ws 2
-    , className =? "Nautilus"       --> doF (W.shift (myWorkspaces !! 2)) -- send to ws 3
+    , className =? "Thunar"         --> doF (W.shift (myWorkspaces !! 2)) -- send to ws 3
     , className =? "Gimp"           --> doF (W.shift (myWorkspaces !! 3)) -- send to ws 4
     , className =? "stalonetray"    --> doIgnore
     ]
@@ -113,9 +113,9 @@ myKeys = [ ("M-b"        , sendMessage ToggleStruts              ) -- toggle the
          , ("M-p"        , spawn "gmrun"                         ) -- app launcher
          , ("M-n"        , spawn "wicd-client -n"                ) -- network manager
          , ("M-r"        , spawn "xmonad --restart"              ) -- restart xmonad w/o recompiling
-         , ("M-w"        , spawn "chromium"                      ) -- launch browser
+         , ("M-w"        , spawn "firefox"                       ) -- launch browser
          , ("M-S-w"      , spawn "chromium --incognito"          ) -- launch private browser
-         , ("M-e"        , spawn "nautilus"                      ) -- launch file manager
+         , ("M-e"        , spawn "thunar"                        ) -- launch file manager
          , ("C-M1-l"     , spawn "gnome-screensaver-command --lock"              ) -- lock screen
          , ("M-s"        , spawn "urxvtcd -e bash -c 'screen -dRR -S $HOSTNAME'" ) -- launch screen session
          , ("C-M1-<Delete>" , spawn "sudo shutdown -r now"       ) -- reboot

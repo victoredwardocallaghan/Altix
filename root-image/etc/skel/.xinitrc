@@ -5,6 +5,12 @@ if which dbus-launch >/dev/null && test -z "$DBUS_SESSION_BUS_ADDRESS"; then
 fi 
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 DEFAULT_SESSION=xmonad
+
+# NetworkManager
+(sleep 3 && /usr/bin/nm-applet --sm-disable) &
+
+# background urxvtd for faster terms
+urxvtd &
 # set cursor
 xsetroot -cursor_name left_ptr
 # start xmonad
