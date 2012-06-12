@@ -59,7 +59,6 @@ gstreamer0.10-good
 gstreamer0.10-good-plugins
 gstreamer0.10-ugly
 gstreamer0.10-ugly-plugins
-hal
 network-manager-applet
 xf86-input-evdev
 xf86-input-synaptics
