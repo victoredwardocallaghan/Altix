@@ -29,13 +29,12 @@ make_packages() {
 make_setup_mkinitcpio() {
    if [[ ! -e ${work_dir}/build.${FUNCNAME} ]]; then
         local _hook
-        for _hook in archiso archiso_shutdown archiso_pxe_common archiso_pxe_nbd archiso_pxe_http archiso_pxe_nfs archiso_loop_mnt; do
+        for _hook in archiso archiso_shutdown archiso_loop_mnt; do
             cp /usr/lib/initcpio/hooks/${_hook} ${work_dir}/root-image/usr/lib/initcpio/hooks
             cp /usr/lib/initcpio/install/${_hook} ${work_dir}/root-image/usr/lib/initcpio/install
         done
         cp /usr/lib/initcpio/install/archiso_kms ${work_dir}/root-image/usr/lib/initcpio/install
         cp /usr/lib/initcpio/archiso_shutdown ${work_dir}/root-image/usr/lib/initcpio
-        cp /usr/lib/initcpio/archiso_pxe_nbd ${work_dir}/root-image/usr/lib/initcpio
         cp ${script_path}/mkinitcpio.conf ${work_dir}/root-image/etc/mkinitcpio-archiso.conf
         : > ${work_dir}/build.${FUNCNAME}
    fi
