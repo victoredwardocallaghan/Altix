@@ -14,4 +14,6 @@ urxvtd &
 # set cursor
 xsetroot -cursor_name left_ptr
 # start xmonad
-exec ck-launch-session xmonad
+#exec ck-launch-session xmonad
+# start awesomewm
+exec ck-launch-session awesome

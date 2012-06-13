@@ -81,8 +81,9 @@ xorg-server
 xorg-server-utils
 xorg-xinit
 xorg-utils
-xmonad
-xmonad-contrib
+#xmonad
+#xmonad-contrib
+awesome
 zsh
 firefox
 git
