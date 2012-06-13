@@ -1,6 +1,6 @@
 texlive-most
 kile
-vim-latexsuite-git
+#vim-latexsuite-git
 p7zip
 aif
 acpi
