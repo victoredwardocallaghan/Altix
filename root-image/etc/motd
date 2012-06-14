@@ -1,12 +1,5 @@
-**************************************************************
-* To begin installation, run /arch/setup                     *
-* You can find documentation at                              *
-*  /usr/share/aif/docs/official_installation_guide_en        *
-*                                                            *
-* i18n: Use the 'km' utility to change your keyboard layout  *
-*       and console font.                                    *
-*                                                            *
-* If you encounter issues and want to report them or         *
-* seek help, run /arch/report-issues                         *
-*                                                            *
-**************************************************************
+[H[2J
+Altix Live ISO (\l)
+\s-\r \m.
+Default logins "root" and "arch" have no password.
+To begin installation, login as root.

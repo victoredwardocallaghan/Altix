@@ -7,7 +7,7 @@
 #
 
 # Over-rides your full name from Unix password file. Required for PC-Pine.
-personal-name=Edward O'Callaghan
+personal-name=Altix OS User
 
 # Sets domain part of From: and local addresses in outgoing mail.
 user-domain=sysphere.org

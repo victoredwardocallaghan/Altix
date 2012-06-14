@@ -4,7 +4,6 @@ if which dbus-launch >/dev/null && test -z "$DBUS_SESSION_BUS_ADDRESS"; then
     eval "$(dbus-launch --sh-syntax --exit-with-session)"
 fi 
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
-DEFAULT_SESSION=xmonad
 
 # NetworkManager
 (sleep 3 && /usr/bin/nm-applet --sm-disable) &
@@ -15,5 +14,9 @@ urxvtd &
 xsetroot -cursor_name left_ptr
 # start xmonad
 #exec ck-launch-session xmonad
-# start awesomewm
-exec ck-launch-session awesome
+
+DEFAULT_SESSION=awesome
+case $1 in
+  awesome|xmonad) exec $1 ;;
+  *) exec $DEFAULT_SESSION ;;
+esac

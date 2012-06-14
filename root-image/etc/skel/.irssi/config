@@ -258,9 +258,9 @@ statusbar = {
 };
 settings = {
   core = {
-    real_name = "Edward";
-    user_name = "edward";
-    nick = "edward";
+    real_name = "Altix OS User";
+    user_name = "altixuser";
+    nick = "altixuser";
     recode_transliterate = "no";
   };
   "fe-text" = { actlist_sort = "refnum"; };

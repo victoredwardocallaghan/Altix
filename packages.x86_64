@@ -1,6 +1,9 @@
+flashplugin
 texlive-most
-kile
+#kile
 #vim-latexsuite-git
+moc
+alsa-utils
 p7zip
 aif
 acpi
