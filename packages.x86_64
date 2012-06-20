@@ -1,3 +1,4 @@
+tmux
 vim
 flashplugin
 texlive-most
@@ -89,6 +90,8 @@ xorg-utils
 #xmonad
 #xmonad-contrib
 awesome
+vicious
+wireless_tools
 zsh
 firefox
 git
