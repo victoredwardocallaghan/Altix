@@ -32,6 +32,7 @@ ipw2100-fw
 ipw2200-fw
 irssi
 clang
+ghc
 conky
 llvm
 linux
