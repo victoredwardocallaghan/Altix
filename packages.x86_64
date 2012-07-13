@@ -1,3 +1,13 @@
+texlive-latexextra
+autofs
+gutenprint
+libcups
+cups
+usblp
+cups-pdf
+hplip
+texlive-fontsextra
+texlive-pictures
 ctags
 xclip
 gtksourceview
